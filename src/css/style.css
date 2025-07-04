@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+    color: #EAEAEA;
+}
+
+.navbar{
+    background-color: #1A1A1A;
+}
+
+.nav-link, .navbar-brand{
+    color: #EAEAEA !important;
+    transition:  0.5s ease;
+}
+
+.navbar-brand{
+    color: #00E6F6 !important ;
+}
+
+.nav-link:hover{
+    color: #00E6F6 !important;
+}
+
+footer{
+    color: #A8A8A8;
+    background-color: #2A2A2A;
+}
+
+.navbar-toggler {
+  border-color: #00E6F6; 
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.titulo{
+    color: 	#A8A8A8;
+}
+
+span{
+    color:#00E6F6;
+}
+
+#fone{
+    transition: 0.6s ease;
+}
+
+#fone:hover{
+	transform: scale(1.2);
+}
+
+#produto{
+    background-color: #1B0B2E;
+}
+
+.card {
+  background-color: #1b0b2e;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00f0ff40;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
