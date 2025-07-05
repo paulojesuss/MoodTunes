@@ -1,67 +1,68 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: #111;
-    font-family: 'Poppins', sans-serif;
-    color: #EAEAEA;
+body {
+  background-color: #111;
+  font-family: 'Poppins', sans-serif;
+  color: #EAEAEA;
 }
 
-.navbar{
-    background-color: #1A1A1A;
+.navbar {
+  background-color: #1A1A1A;
 
 }
 
-.nav-link, .navbar-brand{
-    color: #EAEAEA !important;
-    transition:  0.5s ease;
+.nav-link,
+.navbar-brand {
+  color: #EAEAEA !important;
+  transition: 0.5s ease;
 }
 
-.navbar-brand{
-    color: #00E6F6 !important ;
+.navbar-brand {
+  color: #00E6F6 !important;
 }
 
-.nav-link:hover{
-    color: #00E6F6 !important;
+.nav-link:hover {
+  color: #00E6F6 !important;
 }
 
-footer{
-    color: #A8A8A8;
-    background-color: #2A2A2A;
+footer {
+  color: #A8A8A8;
+  background-color: #2A2A2A;
 }
 
 .navbar-toggler {
-  border-color: #00E6F6; 
+  border-color: #00E6F6;
 }
 
 .navbar-toggler-icon {
   filter: brightness(0) invert(1);
 }
 
-.titulo{
-    color: 	#A8A8A8;
+.titulo {
+  color: #A8A8A8;
 }
 
-span{
-    color:#00E6F6;
+span {
+  color: #00E6F6;
 }
 
-#fone{
-    transition: 0.6s ease;
+#fone {
+  transition: 0.6s ease;
 }
 
-#fone:hover{
-	transform: scale(1.2);
+#fone:hover {
+  transform: scale(1.2);
 }
 
-#produto{
-    background-color: #1B0B2E;
+#produto {
+  background-color: #1B0B2E;
 }
 
 .card {
@@ -77,8 +78,8 @@ span{
   transform: scale(1.05);
 }
 
-#contato{
-    background-color: #0d0d0d;
+#contato {
+  background-color: #0d0d0d;
 }
 
 .form-control {
