@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="src/img/logo.png" alt="Logo" width="36" height="30" class="d-inline-block align-text-top">
@@ -33,10 +33,10 @@
                     <a class="nav-link" href="#produto">Produto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Login</a>
@@ -44,9 +44,9 @@
             </ul>
         </div>
     </nav>
-    <div id="home" class="container">
-        <div class="row text-center my-5 fs-1">
-            <div class="col-12 titulo">
+    <div id="home" class="container mt-5">
+        <div class="row text-center fs-1">
+            <div class="col-12 titulo my-5">
                 A <span>melhor</span> loja de headphones - <span>MoodTunes</span>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <div class="col-12 col-md-6">
                     <img class="img-fluid" src="src/img/pessoacomfone.avif">
                 </div>
-                <div class="col-12 col-md-6 fs-5 my-5 d-flex align-items-center text-center">
+                <div class="col-12 col-md-6 fs-5 my-5 d-flex align-items-center text-center sobre">
                     Eles não apenas reproduzem música, mas também a personalizam de acordo com o estado emocional do
                     usuário.
                 </div>
@@ -74,7 +74,7 @@
     <div id="produto">
         <div class="container">
             <div class="row text-center titulo fs-1">
-                <div class="col-12">O que os <span>MoodTunes</span> oferecem?</div>
+                <div class="col-12 mt-3">O que os <span>MoodTunes</span> oferecem?</div>
             </div>
             <div class="container">
                 <div class="row">
@@ -83,8 +83,8 @@
                             <img src="src/img/card1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Funcionalidades</h5>
-                                <p class="card-text text-justify">Sensores biométricos detectam sinais corporais como batimentos e
-Reconhecimento facial analisa expressões como alegria para ajustar a música.</p>
+                                <p class="card-text">Sensores biométricos detectam sinais corporais como batimentos e
+                                    Reconhecimento facial analisa expressões como alegria para ajustar a música.</p>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,8 @@ Reconhecimento facial analisa expressões como alegria para ajustar a música.</
                             <img src="src/img/card2.avif" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Benefício</h5>
-                                <p class="card-text text-justify">A música se adapta ao seu humor. Em momentos de estresse, sons relaxantes promovem equilíbrio e bem-estar.</p>
+                                <p class="card-text">A música se adapta ao seu humor. Em momentos de estresse, sons
+                                    relaxantes promovem equilíbrio e bem-estar.</p>
                             </div>
                         </div>
                     </div>
@@ -102,17 +103,42 @@ Reconhecimento facial analisa expressões como alegria para ajustar a música.</
                             <img src="src/img/card3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Conectividade</h5>
-                                <p class="card-text text-justify">O app acompanha suas emoções e ajusta suas playlists. Você também pode interagir com os fones em tempo real.</p>
+                                <p class="card-text">O app acompanha suas emoções e ajusta suas playlists. Você também
+                                    pode interagir com os fones em tempo real.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-
     </div>
-
+    <div id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 titulo text-center fs-1 mt-3">
+                    Entre em <span>contato</span>
+                </div>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label text-light">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-light">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="nome@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label text-light">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4"
+                        placeholder="Digite sua mensagem..."></textarea>
+                </div>
+                <div class="text-center my-3">
+                    <button type="submit" class="btn btn-outline-info px-5">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="row text-center">

@@ -15,6 +15,7 @@ body{
 
 .navbar{
     background-color: #1A1A1A;
+
 }
 
 .nav-link, .navbar-brand{
@@ -74,4 +75,26 @@ span{
 
 .card:hover {
   transform: scale(1.05);
+}
+
+#contato{
+    background-color: #0d0d0d;
+}
+
+.form-control {
+  background-color: #0d0d0d;
+  color: #fff;
+  border: 1px solid #00f0ff;
+  border-radius: 10px;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-control:focus {
+  border-color: #00f0ff;
+  box-shadow: 0 0 8px #00f0ff;
+  background-color: #0d0d0d;
+  color: #fff;
 }
